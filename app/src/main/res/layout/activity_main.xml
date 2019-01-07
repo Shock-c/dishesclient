@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/guan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/caipin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="菜品设置"
+            android:textSize="50dp"
+            android:textColor="#777"
+            android:layout_margin="20dp"
+            android:background="@drawable/touming"
+            />
+        <Button
+            android:id="@+id/caidan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="餐桌点餐"
+            android:textSize="50dp"
+            android:textColor="#777"
+            android:layout_margin="20dp"
+
+            android:background="@drawable/touming"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

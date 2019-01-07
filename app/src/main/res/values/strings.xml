@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dishesclient</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="localhost">192.168.199.116</string>
+</resources>
